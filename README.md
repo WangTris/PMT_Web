@@ -42,5 +42,5 @@
 yarn install
 
 # Run
-yarn dev --host
+yarn start
 ```
