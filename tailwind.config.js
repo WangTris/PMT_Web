@@ -11,7 +11,14 @@ module.exports = {
         accent: "#313131",
         accent2: "#D2D2D2",
       },
+      fz: {
+        title: "6.4rem",
+        sub_title: "3.2rem",
+        heading: "3.6rem",
+        lg_text: "3.6rem",
+        text: "2.4rem",
+      },
     },
   },
   plugins: [],
-};
+}
