@@ -1,9 +1,16 @@
 import React from "react";
+import Header from "./Components/Header/Header";
+import Banner from "./Components/Banner/Banner";
+import Partner from "./Components/Partner/Partner";
+import Service from "./Components/Service/Service";
 
 function App() {
   return (
     <>
-      <h1>Hello, world</h1>
+      <Header />
+      <Banner />
+      <Partner />
+      <Service />
     </>
   );
 }
