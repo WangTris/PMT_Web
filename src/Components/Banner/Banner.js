@@ -2,8 +2,8 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="h-[502px] flex items-center justify-center bg-black">
-      <div className="container mx-auto text-white space-y-16">
+    <section className="flex h-[502px] items-center justify-center bg-black">
+      <div className="container mx-auto space-y-16 text-white">
         <h1 className="text-[64px] font-extrabold uppercase leading-8">
           slogan
         </h1>
