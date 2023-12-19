@@ -1,6 +1,6 @@
 import React from "react";
 // images
-import { ReactComponent as Logo } from "../../assets/img/logo/logo.svg";
+import { ReactComponent as Logo } from "../../../assets/img/logo/logo.svg";
 
 const ServiceCard = ({ title }) => {
   return (
