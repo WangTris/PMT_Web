@@ -19,7 +19,7 @@ const Footer = () => {
           {/* Company age */}
           <div className="text-center sm:mt-8">
             <span className="text-center text-2xl font-bold md:text-3xl">
-              Since 2023 @ Công Ty Tnhh Công Nghệ Phương Mạnh Tú
+              Since 2??? @ Công Ty TNHH Công Nghệ Phương Mạnh Tú
             </span>
           </div>
         </div>

@@ -21,15 +21,22 @@ const Header = () => {
           {/* Languages and Navbar */}
           <div className="flex flex-col">
             <div className="flex items-center justify-between space-x-2 md:justify-end">
-              <div className="flex  ">
+              <div className="flex">
                 <VnFlag className="h-16 w-24" />
                 <UsFlag className="h-16 w-24" />
               </div>
-              <button className="flex h-24 w-56 items-center justify-center rounded-2xl bg-primary px-4 py-2 text-white transition-colors hover:bg-primary/80">
-                <span className="font-primary text-3xl font-bold text-white">
-                  Contact Us
-                </span>
-              </button>
+              <div className="flex space-x-2">
+                <button className="flex h-24 w-56 items-center justify-center rounded-2xl bg-primary px-4 py-2 transition-colors hover:bg-primary/60">
+                  <span className="font-primary text-3xl font-bold text-white">
+                    Contact Us
+                  </span>
+                </button>
+                <button className="flex h-24 w-56 items-center justify-center rounded-2xl border-2 border-primary bg-accent px-4 py-2 transition-colors hover:bg-accent/70">
+                  <span className="font-primary text-3xl font-bold text-primary">
+                    Get a Quote
+                  </span>
+                </button>
+              </div>
             </div>
             <hr className="my-8 h-px border-0 bg-black" />
             <div className="flex justify-center space-x-16 font-primary text-2xl font-bold md:justify-end md:text-4xl">
