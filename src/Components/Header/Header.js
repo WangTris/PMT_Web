@@ -6,22 +6,24 @@ import { ReactComponent as UsFlag } from "../../assets/img/flag/us.svg";
 
 const Header = () => {
   return (
-    <header className="h-[190px] bg-white py-8">
+    <header className="h-auto bg-white py-8">
       <div className="container mx-auto">
-        <div className="flex items-center justify-between">
+        <div className="items-center justify-between md:flex">
           {/* Logo and Company name */}
-          <div className="flex items-center justify-center">
-            <Logo className="mr-[15px] h-[100px] w-[96px]" />
-            <span className="h-[58px] w-[271px] text-[24px] font-bold text-primary">
+          <div className="flex items-center justify-center ">
+            <div className="flex-shrink-0">
+              <Logo className="mr-4 h-40 w-40" />
+            </div>
+            <span className="h-20 w-[30rem] text-4xl font-bold text-primary">
               PHUONG MANH TU TECHNOLOGY Co. LTD.
             </span>
           </div>
           {/* Languages and Navbar */}
           <div className="flex flex-col">
-            <div className="flex items-center justify-end space-x-2">
+            <div className="flex items-center justify-between space-x-2 md:justify-end">
               <div className="flex  ">
-                <VnFlag className="h-[22px] w-[40px]" />
-                <UsFlag className="h-[22px] w-[40px]" />
+                <VnFlag className="h-16 w-24" />
+                <UsFlag className="h-16 w-24" />
               </div>
               <button className="flex h-24 w-56 items-center justify-center rounded-2xl bg-primary px-4 py-2 text-white transition-colors hover:bg-primary/80">
                 <span className="font-primary text-3xl font-bold text-white">
@@ -30,60 +32,44 @@ const Header = () => {
               </button>
             </div>
             <hr className="my-8 h-px border-0 bg-black" />
-            <div className="flex justify-end space-x-16 font-primary text-[24px] font-bold">
+            <div className="flex justify-center space-x-16 font-primary text-2xl font-bold md:justify-end md:text-4xl">
               <a
                 href="/about"
-                className="text-accent transition-colors hover:text-gray-700"
+                className="text-accent transition-colors hover:text-accent/40"
               >
                 About
               </a>
               <div className="group relative">
                 <a
                   href="/products"
-                  className="text-accent transition-colors hover:text-accent/80"
+                  className="text-accent transition-colors hover:text-accent/40"
                 >
                   Product
                 </a>
-                <span className="ml-1 text-accent group-hover:text-accent/80">
-                  &#x25BC;
-                </span>
-                {/* Dropdown content goes here, hidden by default and shown on hover */}
               </div>
               <div className="group relative">
                 <a
                   href="/services"
-                  className="text-accent transition-colors hover:text-accent/80"
+                  className="text-accent transition-colors hover:text-accent/40"
                 >
                   Service
                 </a>
-                <span className="ml-1 text-accent group-hover:text-accent/80">
-                  &#x25BC;
-                </span>
-                {/* Dropdown content goes here */}
               </div>
               <div className="group relative">
                 <a
                   href="/projects"
-                  className="text-accent transition-colors hover:text-accent/80"
+                  className="text-accent transition-colors hover:text-accent/40"
                 >
                   Project
                 </a>
-                <span className="ml-1 text-accent group-hover:text-accent/80">
-                  &#x25BC;
-                </span>
-                {/* Dropdown content goes here */}
               </div>
               <div className="group relative">
                 <a
                   href="/news"
-                  className="text-accent transition-colors hover:text-accent/80"
+                  className="text-accent transition-colors hover:text-accent/40"
                 >
                   News
                 </a>
-                <span className="ml-1 text-accent group-hover:text-accent/80">
-                  &#x25BC;
-                </span>
-                {/* Dropdown content goes here */}
               </div>
             </div>
           </div>
