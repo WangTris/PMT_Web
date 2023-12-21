@@ -62,7 +62,7 @@ const Contact = () => {
       </div>
 
       {/* Bottom Links */}
-      <div className="mt-8 flex justify-evenly border-t border-white pt-4 text-xl font-bold text-accent2 md:text-3xl">
+      <div className="mt-12 flex justify-evenly border-t border-white pt-4 text-xl font-bold text-accent2 md:text-3xl">
         <a href="#" className="hover:underline">
           About
         </a>
