@@ -8,9 +8,7 @@ export default function Default({ children: Children }) {
   return (
     <>
       <Header />
-      <main className="container mx-auto">
-        <Children />
-      </main>
+      <Children />
       <Contact />
       <Footer />
     </>
