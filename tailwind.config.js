@@ -10,6 +10,7 @@ module.exports = {
         primary: "#D02023",
         accent: "#313131",
         accent2: "#D2D2D2",
+        button2: "#8D0E10",
       },
       fz: {
         title: "6.4rem",
@@ -21,4 +22,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

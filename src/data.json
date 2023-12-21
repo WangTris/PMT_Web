@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "link": "http://www.example.com/product1",
+      "title": "product1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "./images/product1.jpg"
+    },
+    {
+      "id": "2",
+      "link": "http://www.example.com/product1",
+      "title": "product1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "./images/product1.jpg"
+    }
+  ]
+}
