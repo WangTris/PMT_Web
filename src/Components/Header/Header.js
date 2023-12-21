@@ -39,7 +39,7 @@ const Header = () => {
               </div>
             </div>
             <hr className="my-8 h-px border-0 bg-black" />
-            <div className="flex justify-center space-x-16 font-primary text-3xl font-bold md:justify-end md:text-4xl">
+            <div className="flex justify-center space-x-16 font-primary text-2xl font-bold md:justify-end md:text-4xl">
               <a
                 href="/about"
                 className="text-accent transition-colors hover:text-accent/40"
