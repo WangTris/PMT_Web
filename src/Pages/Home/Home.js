@@ -16,6 +16,6 @@ const children = () => {
   );
 };
 
-export default function () {
+export default function Home() {
   return <Default>{children}</Default>;
 }
