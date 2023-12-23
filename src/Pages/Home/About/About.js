@@ -84,14 +84,20 @@ const About = () => {
           {/* Button */}
           <div className="flex items-center  justify-center space-x-4 md:justify-around">
             <button className="border-2 border-primary px-8 py-2 text-primary transition-colors duration-300 hover:bg-primary hover:text-white md:h-[7rem] md:w-[20rem]">
-              <span className="font-primary text-4xl font-bold uppercase">
+              <a
+                href="/projects"
+                className="font-primary text-4xl font-bold uppercase"
+              >
                 Projects
-              </span>
+              </a>
             </button>
             <button className="border-2 border-primary px-8 py-2 text-primary transition-colors duration-300 hover:bg-primary hover:text-white md:h-[7rem] md:w-[20rem]">
-              <span className="font-primary text-4xl font-bold uppercase">
+              <a
+                href="/news"
+                className="font-primary text-4xl font-bold uppercase"
+              >
                 news
-              </span>
+              </a>
             </button>
           </div>
         </div>

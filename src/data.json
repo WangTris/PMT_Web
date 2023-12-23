@@ -14,5 +14,107 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
       "image": "./images/product1.jpg"
     }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "link": "#",
+      "title": "project1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/projects/Image1.jpg"
+    },
+    {
+      "id": "2",
+      "link": "http://www.example.com/project1",
+      "title": "project1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/projects/Image2.jpg"
+    },
+    {
+      "id": "3",
+      "link": "http://www.example.com/project1",
+      "title": "project1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/projects/Image3.jpeg"
+    },
+    {
+      "id": "4",
+      "link": "http://www.example.com/project1",
+      "title": "project1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/projects/Image4.jpeg"
+    },
+    {
+      "id": "5",
+      "link": "http://www.example.com/project1",
+      "title": "project1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/projects/Image5.jpeg"
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "link": "http://www.example.com/news1",
+      "title": "news1",
+      "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/news/Image1.jpg"
+    },
+    {
+      "id": "2",
+      "link": "http://www.example.com/news1",
+      "title": "news1",
+      "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/news/Image2.jpg"
+    },
+    {
+      "id": "3",
+      "link": "http://www.example.com/news1",
+      "title": "news1",
+      "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/news/Image3.jpg"
+    },
+    {
+      "id": "4",
+      "link": "http://www.example.com/news1",
+      "title": "news1",
+      "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/news/Image4.jpg"
+    },
+    {
+      "id": "5",
+      "link": "http://www.example.com/news1",
+      "title": "news1",
+      "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/news/Image5.jpg"
+    },
+    {
+      "id": "5",
+      "link": "http://www.example.com/news1",
+      "title": "news1",
+      "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/news/Image5.jpg"
+    },
+    {
+      "id": "5",
+      "link": "http://www.example.com/news1",
+      "title": "news1",
+      "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/news/Image5.jpg"
+    },
+    {
+      "id": "5",
+      "link": "http://www.example.com/news1",
+      "title": "news1",
+      "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/news/Image5.jpg"
+    },
+    {
+      "id": "5",
+      "link": "http://www.example.com/news1",
+      "title": "news1",
+      "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc vi",
+      "image": "/images/news/Image5.jpg"
+    }
   ]
 }
