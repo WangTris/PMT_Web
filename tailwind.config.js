@@ -11,6 +11,8 @@ module.exports = {
         accent: "#313131",
         accent2: "#D2D2D2",
         button2: "#8D0E10",
+        gray: "#D9D9D9",
+        gray1: "#7F7F7F",
       },
       fz: {
         title: "6.4rem",

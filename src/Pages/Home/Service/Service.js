@@ -2,15 +2,15 @@ import React from "react";
 // images
 import { ReactComponent as Logo } from "../../../assets/img/logo/logo.svg";
 
-const ServiceCard = ({ title }) => {
+const ServiceCard = ({ title, link }) => {
   return (
-    <div className="flex flex-col items-center bg-gray-300">
+    <a href={link} className="flex flex-col items-center bg-gray-300">
       <div className="h-[50rem] w-full bg-slate-500 md:h-[40rem] md:w-[35rem]"></div>
       <div className="flex w-full items-center justify-between bg-black px-4 py-2 text-white">
         <span className="font-primary text-5xl font-bold">{title}</span>
         <div className="h-[4rem] w-[4rem] rounded-md bg-red-500"></div>
       </div>
-    </div>
+    </a>
   );
 };
 
@@ -23,9 +23,9 @@ const Service = () => {
         </h2>
         {/* Services */}
         <div className="mb-8 flex w-full flex-col justify-evenly space-y-8 md:mb-24 md:flex-row md:space-y-0">
-          <ServiceCard title="Products" />
-          <ServiceCard title="Installation" />
-          <ServiceCard title="Guarantee" />
+          <ServiceCard link="/products" title="Products" />
+          <ServiceCard link="/installation" title="Installation" />
+          <ServiceCard link="/guarantee" title="Guarantee" />
         </div>
         {/* Get a quote */}
         <div className="flex items-center justify-center">
