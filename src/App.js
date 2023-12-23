@@ -6,6 +6,7 @@ import Installation from "./Pages/Installation/Installation";
 import Guarantee from "./Pages/Guarantee/Guarantee";
 import Projects from "./Pages/Projects/Projects";
 import News from "./Pages/News/News";
+import Term from "./Pages/Term/Term";
 import ProductQuality from "./Pages/ProductQuality/ProductQuality";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/guarantee" element={<Guarantee />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/news" element={<News />} />
+        <Route path="/term" element={<Term />} />
       </Routes>
     </BrowserRouter>
   );
