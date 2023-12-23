@@ -5,7 +5,7 @@ import Button from "./Button";
 export default function Banner({ title, subtitle, buttonText }) {
   return (
     <div className="bg-primary">
-      <div className="container mx-auto flex flex-col py-14 text-white">
+      <div className="container mx-auto flex flex-col py-14 text-center text-white md:text-left">
         <h2 className="text-8xl font-extrabold uppercase">{title}</h2>
         <p className="my-7 text-4xl">{subtitle}</p>
         <div className="flex items-center justify-center">

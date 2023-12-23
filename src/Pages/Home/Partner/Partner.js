@@ -2,8 +2,11 @@ import React from "react";
 
 const Partner = () => {
   return (
-    <div className="container mx-auto py-10 text-center">
-      <h2 className="mb-8 text-[36px] font-bold">CÁC ĐỐI TÁC KHÁCH HÀNG</h2>
+    <section className="container mx-auto py-12 text-center">
+      <h2 className="mb-8 text-5xl font-bold leading-10 md:text-6xl">
+        CÁC ĐỐI TÁC KHÁCH HÀNG
+      </h2>
+      {/* Line break */}
       <div className="mb-6 flex items-center justify-center">
         <div className="w-1/4 border-2 border-t border-black"></div>
         <div className="mx-4">
@@ -19,7 +22,7 @@ const Partner = () => {
         <div className="h-32 w-32 bg-gray-300"></div>
         <div className="h-32 w-32 bg-gray-300"></div>
       </div>
-    </div>
+    </section>
   );
 };
 
