@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ProductList from "./Pages/ProductList/ProductList";
 import ProductQuality from "./Pages/ProductQuality/ProductQuality";
 import ProjectProcessing from "./Pages/ProjectProcessing/ProjectProcessing";
+import Services from "./Pages/Services/Services";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/products" element={<ProductList />} />
         <Route path="/productquality" element={<ProductQuality />} />
         <Route path="/projectprocessing" element={<ProjectProcessing />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
     </BrowserRouter>
   );
