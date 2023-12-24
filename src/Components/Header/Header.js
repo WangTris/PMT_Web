@@ -28,12 +28,12 @@ const Header = () => {
               <div className="flex space-x-2">
                 <button className="flex h-24 w-56 items-center justify-center rounded-2xl border-2 border-primary bg-primary px-4 py-2 text-white transition-colors hover:bg-white hover:text-primary">
                   <span className="font-primary text-3xl font-bold ">
-                    Contact Us
+                    <a href="/contactus">Contact Us</a>
                   </span>
                 </button>
                 <button className="flex h-24 w-56 items-center justify-center rounded-2xl border-2 border-primary px-4 py-2 text-primary transition-colors hover:bg-primary hover:text-white">
                   <span className="font-primary text-3xl font-bold ">
-                    Get a Quote
+                    <a href="/getaquote">Get a Quote</a>
                   </span>
                 </button>
               </div>
@@ -41,7 +41,7 @@ const Header = () => {
             <hr className="my-8 h-px border-0 bg-black" />
             <div className="flex justify-center space-x-16 font-primary text-2xl font-bold md:justify-end md:text-4xl">
               <a
-                href="/about"
+                href="/"
                 className="text-accent transition-colors hover:text-accent/40"
               >
                 About

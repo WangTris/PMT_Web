@@ -29,8 +29,10 @@ const Service = () => {
         </div>
         {/* Get a quote */}
         <div className="flex items-center justify-center">
-          <Logo className="mr-4 h-40 w-40" />
-          <span className="text-6xl font-bold text-primary">GET A QUOTE</span>
+          <a href="/getaquote" className="flex items-center justify-center">
+            <Logo className="mr-4 h-40 w-40" />
+            <span className="text-6xl font-bold text-primary">GET A QUOTE</span>
+          </a>
         </div>
       </div>
     </section>
