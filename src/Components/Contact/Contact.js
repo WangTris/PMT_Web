@@ -11,7 +11,10 @@ const Contact = () => {
             and service, empowering our clients with excellence and reliability
             in every endeavor.
           </p>
-          <a href="#" className="font-bold italic text-primary hover:underline">
+          <a
+            href="/term"
+            className="font-bold italic text-primary hover:underline"
+          >
             Terms of service
           </a>
         </div>
@@ -48,12 +51,12 @@ const Contact = () => {
             <div className="flex space-x-2">
               <button className="flex h-24 w-56 items-center justify-center rounded-2xl bg-primary px-4 py-2 transition-colors hover:bg-primary/60">
                 <span className="font-primary text-3xl font-bold text-white">
-                  Contact Us
+                  <a href="/contactus">Contact Us</a>
                 </span>
               </button>
               <button className="flex h-24 w-56 items-center justify-center rounded-2xl border-2 border-primary bg-accent px-4 py-2 transition-colors hover:bg-accent/70">
                 <span className="font-primary text-3xl font-bold text-primary">
-                  Get a Quote
+                  <a href="/getaquote">Get a Quote</a>
                 </span>
               </button>
             </div>
@@ -63,19 +66,19 @@ const Contact = () => {
 
       {/* Bottom Links */}
       <div className="mt-12 flex justify-evenly border-t border-white pt-4 text-xl font-bold text-accent2 md:text-3xl">
-        <a href="#" className="hover:underline">
+        <a href="/" className="hover:underline">
           About
         </a>
-        <a href="#" className="hover:underline">
+        <a href="/products" className="hover:underline">
           Products
         </a>
-        <a href="#" className="hover:underline">
+        <a href="/services" className="hover:underline">
           Services
         </a>
-        <a href="#" className="hover:underline">
+        <a href="/projects" className="hover:underline">
           Projects
         </a>
-        <a href="#" className="hover:underline">
+        <a href="/news" className="hover:underline">
           News
         </a>
       </div>

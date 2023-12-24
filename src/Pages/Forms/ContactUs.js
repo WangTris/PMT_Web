@@ -254,7 +254,7 @@ const ContactUs = () => {
           services.
         </div>
         <a
-          href="#"
+          href="/term"
           className="font-primary text-xl font-bold italic text-accent hover:underline"
         >
           Terms of service

@@ -34,7 +34,7 @@ const About = () => {
                 </span>
               </div>
               <span className="font-primary text-4xl font-bold uppercase text-primary">
-                project processing
+                <a href="/projectprocessing">project processing</a>
               </span>
             </div>
             {/* Product */}
@@ -49,7 +49,7 @@ const About = () => {
                 </span>
               </div>
               <span className="font-primary text-4xl font-bold uppercase text-primary">
-                product quality
+                <a href="/productquality">product quality</a>
               </span>
             </div>
             {/* Services */}
@@ -64,7 +64,7 @@ const About = () => {
                 </span>
               </div>
               <span className="font-primary text-4xl font-bold uppercase text-primary">
-                services
+                <a href="/services">services</a>
               </span>
             </div>
           </div>

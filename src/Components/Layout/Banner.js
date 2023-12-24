@@ -9,7 +9,9 @@ export default function Banner({ title, subtitle, buttonText }) {
         <h2 className="text-8xl font-extrabold uppercase">{title}</h2>
         <p className="my-7 text-4xl">{subtitle}</p>
         <div className="flex items-center justify-center">
-          <Button buttonText={buttonText} />
+          <a href="/contactus">
+            <Button buttonText={buttonText} />
+          </a>
         </div>
       </div>
     </div>
