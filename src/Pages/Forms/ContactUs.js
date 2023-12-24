@@ -196,6 +196,7 @@ const ContactUs = () => {
           <select
             id="why-contact"
             class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-2xl text-gray-900 "
+            required
           >
             <option>-- Please Select --</option>
             <option>Equipment Sales</option>
@@ -216,6 +217,7 @@ const ContactUs = () => {
           <select
             id="categories"
             class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-2xl text-gray-900 "
+            required
           >
             <option>-- Please Select --</option>
             <option>Centrifugal Compressor</option>
