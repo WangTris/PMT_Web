@@ -3,7 +3,7 @@ import Default from "../../Components/Layout/Default";
 
 const children = () => {
   return (
-    <div className="container mx-auto px-4 py-10">
+    <div className="container mx-auto border-t-2 px-4 py-10">
       <div className="row">
         <div className="col-md-12 text-3xl">
           <h2 className="mb-10 text-6xl font-extrabold uppercase">
